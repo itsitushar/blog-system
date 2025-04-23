@@ -1,0 +1,20 @@
+<!-- blog/templates/blog/country_detail.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ country.name.common }} Details</title>
+</head>
+
+<body>
+    <h1>{{ country.name.common }}</h1>
+
+    {% with capital=country.capital.0 %}
+    <p>Capital: {{ capital }}</p>
+    {% endwith %}
+
+    <p>Region: {{ country.region }}</p>
+    <p>Subregion: {{ country.subregion }}</p>
+</body>
+
+</html>
