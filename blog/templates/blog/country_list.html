@@ -1,0 +1,18 @@
+<!-- blog/templates/blog/country_list.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Country List</title>
+</head>
+
+<body>
+    <h1>Countries</h1>
+    <ul>
+        {% for country in countries %}
+        <li>{{ country.name.common }} - Capital: {{ country.capital }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
