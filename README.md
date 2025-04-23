@@ -54,7 +54,7 @@ This project is a Django-based blog system that allows users to list blogs, view
    python manage.py runserver
    ```
 
-8. Access the blog system at `http://127.0.0.1:8000/` in your browser.
+8. Access the blog system at `http://127.0.0.1:8000/countries/` in your browser.
 
 ## License
 Include any licensing information here, if applicable.
